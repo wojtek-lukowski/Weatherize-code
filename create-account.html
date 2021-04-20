@@ -16,17 +16,19 @@
     <div class="container logo">
       <img src="img/logo.svg" alt="logo">
     </div>
-    <div class="conatainer">
+    <div class="container">
       <h2>Create account with email</h2>
     </div>
     <div class="form">
-      <form>
-        <label for="email" class="input">Email</label>
-        <label for="password" class="input">Password</label>
+      <form action="dashboard.html">
+        <ul>
+          <li><input id="email" placeholder="Email" class="input" required></li>
+          <li><input id="password" placeholder="Password" class="input" required></li>
+        </ul>
+        <button type="submit" class="button create">Create Account</button>
       </form>
-      <a href="dashboard.html" class="button" id="create">Create Account</a>
     </div>
   </main>
+  <script src="js/script.js"> </script>
 </body>
-
 </html>

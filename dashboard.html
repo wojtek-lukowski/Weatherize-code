@@ -14,7 +14,6 @@
 <body class="dashboard">
   <main>
 
-
     <header>
       <div class="container">
         <form>
@@ -26,10 +25,23 @@
 
     <div class="container top">
       <h4>Your current location</h4>
+      <a href="location.html">
       <div class="card">
-        <h3>New York</h3>
-        <p>NYC, USA</p>
+        <div class="row">
+          <div class="column col-sm-8">
+            <h3>New York</h3>
+            <p>NYC, USA</p>
+          </div>
+          <div class="column col-sm-4">
+            <img class="heart" src="img//heart.svg" alt="fav">
+          </div>
+        </div>
+        <div class="container symbol">
+          <h3 class="temp">25°C</h3>
+          <img src="img/cloud-green.svg" class="temp" alt="cloud">
+        </div>
       </div>
+      </a>
     </div>
 
     <div class="container">
@@ -37,8 +49,19 @@
       <ul>
         <li>
           <div class="card-small">
-            <h3>New York</h3>
-            <p>NYC, USA</p>
+            <div class="row">
+              <div class="column col-sm-7">
+                <h3>Los Angeles</h3>
+                <p>California, USA</p>
+              </div>
+              <div class="column col-sm-5 line">
+                <ul>
+                  <li><p>20°C</p></li>
+                  <li><img src="img/cloud-sun.svg" alt="sun"></li>
+                  <li><img src="img/heart.svg" alt="fav"></li>
+                </ul>
+              </div>
+            </div>
           </div>
         </li>
         <li>
@@ -92,9 +115,9 @@
     <div class="navbar">
       <nav>
         <ul>
-          <li><a href="#">Dashboard</a></li>
-          <li><a href="#">Locations</a></li>
-          <li><a href="#">Settings</a></li>
+          <li><a href="#"><img src="img/dashboard.svg" alt="dashboard"></a></li>
+          <li><a href="#"><img src="img/locations.svg" alt="locations"></a></li>
+          <li><a href="#"><img src="img/settings.svg" alt="settings"></a></li>
         </ul>
       </nav>
     </div>

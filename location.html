@@ -29,7 +29,7 @@
       </div>
     </div>
 
-    <div class="forecast hourly">
+    <div class="forecast hourly" id="weatherForecast">
 
       <div class="fixed-card">
         <div class="bottomborder">
@@ -377,20 +377,17 @@
 
     </div>
 
-    <div class="toggle">
-      <a href="#" onclick="toggle()">
-
-          <div class="column col-sm-6 hourly" id="toggle">
-            <h4>Hourly</h4>
-          </div>
-          <div class="column col-sm-6 daily">
-            <h4>Daily</h4>
-          </div>
-
+    <div class="row switch">
+      <a href="javascript:void(0);" onclick="toggle()">
+        <div class="column col-sm-6 active" id="hourly">
+          <h4>Hourly</h4>
+        </div>
+        <!--
+        <div class="column col-sm-6 default" id="daily">
+          <h4>Daily</h4>
+        </div> <-->
       </a>
     </div>
-
-
 
 
   </main>
@@ -399,7 +396,7 @@
     <div>
       <nav>
         <ul>
-          <li><a href="#"><img src="img/dashboard.svg" alt="dashboard"></a></li>
+          <li><a href="dashboard.html"><img src="img/dashboard.svg" alt="dashboard"></a></li>
           <li><a href="#"><img src="img/locations-active.svg" alt="locations"></a></li>
           <li><a href="#"><img src="img/settings.svg" alt="settings"></a></li>
         </ul>

@@ -407,19 +407,22 @@ h4.line {
   display: none;
 }
 
-.toggle {
+.switch {
   width: 200px;
   margin: 15px auto;
   background-color: #000000;
-  padding: 15px;
+  padding: 12px;
+  text-align: center;
 }
 
-.active h4 {
+.active h4{
   color: #ffffff;
+  text-align: center;
 }
 
-.default h4 {
+.default h4{
   color: #A3A3A3;
+  text-align: center;
 }
 
 .col-sm-8 {

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="68" height="36.598" viewBox="0 0 68 36.598">
-  <g id="Group_440" data-name="Group 440" transform="translate(-35 -12.402)">
-    <text id="Dashboard" transform="translate(69 46)" fill="#fff" font-size="12" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="-33.576" y="0">Dashboard</tspan></text>
-    <path id="speedometer-2" d="M24.005,12a11.889,11.889,0,0,1-2.424,7.229.938.938,0,0,1-1.5-1.131A10.125,10.125,0,1,0,1.875,12a10.029,10.029,0,0,0,2.044,6.1.938.938,0,0,1-1.5,1.131A12,12,0,0,1,12,0,11.993,11.993,0,0,1,24.005,12ZM17.944,6.35a.938.938,0,0,1,0,1.326l-3.057,3.057a3.282,3.282,0,1,1-1.326-1.326L16.618,6.35A.938.938,0,0,1,17.944,6.35Zm-4.537,5.941A1.4,1.4,0,1,0,12,13.7,1.406,1.406,0,0,0,13.407,12.291Zm0,0" transform="translate(56.994 12.402)" fill="#fff"/>
+  <g id="Group_443" data-name="Group 443" transform="translate(-35 -12.402)">
+    <text id="Dashboard" transform="translate(69 46)" fill="#a3a3a3" font-size="12" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="-33.576" y="0">Dashboard</tspan></text>
+    <path id="speedometer-2" d="M24.005,12a11.889,11.889,0,0,1-2.424,7.229.938.938,0,0,1-1.5-1.131A10.125,10.125,0,1,0,1.875,12a10.029,10.029,0,0,0,2.044,6.1.938.938,0,0,1-1.5,1.131A12,12,0,0,1,12,0,11.993,11.993,0,0,1,24.005,12ZM17.944,6.35a.938.938,0,0,1,0,1.326l-3.057,3.057a3.282,3.282,0,1,1-1.326-1.326L16.618,6.35A.938.938,0,0,1,17.944,6.35Zm-4.537,5.941A1.4,1.4,0,1,0,12,13.7,1.406,1.406,0,0,0,13.407,12.291Zm0,0" transform="translate(56.994 12.402)" fill="#a3a3a3"/>
   </g>
 </svg>

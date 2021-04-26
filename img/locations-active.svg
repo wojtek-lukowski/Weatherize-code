@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="39" viewBox="0 0 60 39">
+  <g id="Group_441" data-name="Group 441" transform="translate(-177 -10)">
+    <text id="Locations" transform="translate(207 46)" fill="#fff" font-size="12" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="-29.406" y="0">Locations</tspan></text>
+    <g id="location_on-24px" transform="translate(195 10)">
+      <path id="Path_140" data-name="Path 140" d="M0,0H24V24H0Z" fill="none"/>
+      <path id="Path_141" data-name="Path 141" d="M12,2A7,7,0,0,0,5,9c0,5.25,7,13,7,13s7-7.75,7-13A7,7,0,0,0,12,2Zm0,9.5A2.5,2.5,0,1,1,14.5,9,2.5,2.5,0,0,1,12,11.5Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>

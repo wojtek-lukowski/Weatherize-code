@@ -4,7 +4,6 @@
 <head>
   <meta charset="utf-8">
   <title>Weatherize dashboard</title>
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -14,39 +13,36 @@
 <body class="dashboard">
   <main>
 
-    <header>
-      <div class="container">
-        <form>
-          <input placeholder="Find location" type="search" class="input search">
-        </form>
-      </div>
+    <header class="search-container">
+      <form>
+        <input type="text" placeholder="Find location" class="search">
+      </form>
     </header>
-
 
     <div class="container top">
       <h4>Your current location</h4>
       <a href="location.html">
-      <div class="card">
-        <div class="row">
-          <div class="column col-sm-8">
-            <h3>New York</h3>
-            <p>NYC, USA</p>
+        <div class="card">
+          <div class="row">
+            <div class="column col-sm-8">
+              <h3>New York</h3>
+              <p>NYC, USA</p>
+            </div>
+            <div class="column col-sm-4">
+              <img class="heart" src="img/heart.svg" alt="fav">
+            </div>
           </div>
-          <div class="column col-sm-4">
-            <img class="heart" src="img//heart.svg" alt="fav">
+          <div class="container symbol">
+            <h3 class="temp">25°C</h3>
+            <img src="img/cloud-green.svg" class="temp" alt="cloud">
           </div>
         </div>
-        <div class="container symbol">
-          <h3 class="temp">25°C</h3>
-          <img src="img/cloud-green.svg" class="temp" alt="cloud">
-        </div>
-      </div>
       </a>
     </div>
 
     <div class="container">
       <h4>Near you</h4>
-      <ul>
+      <ul class="list">
         <li>
           <div class="card-small">
             <div class="row">
@@ -56,7 +52,9 @@
               </div>
               <div class="column col-sm-5 line">
                 <ul>
-                  <li><p>20°C</p></li>
+                  <li>
+                    <p>20°C</p>
+                  </li>
                   <li><img src="img/cloud-sun.svg" alt="sun"></li>
                   <li><img src="img/heart.svg" alt="fav"></li>
                 </ul>
@@ -112,10 +110,10 @@
   </main>
 
   <footer>
-    <div class="navbar">
+    <div>
       <nav>
         <ul>
-          <li><a href="#"><img src="img/dashboard.svg" alt="dashboard"></a></li>
+          <li><a href="#"><img src="img/dashboard-active.svg" alt="dashboard"></a></li>
           <li><a href="#"><img src="img/locations.svg" alt="locations"></a></li>
           <li><a href="#"><img src="img/settings.svg" alt="settings"></a></li>
         </ul>

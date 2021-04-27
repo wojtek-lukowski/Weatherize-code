@@ -377,18 +377,16 @@
 
     </div>
 
-    <div class="row switch">
-      <a href="javascript:void(0);" onclick="toggle()">
-        <div class="column col-sm-6 active" id="hourly">
-          <h4>Hourly</h4>
-        </div>
-        <!--
-        <div class="column col-sm-6 default" id="daily">
-          <h4>Daily</h4>
-        </div> <-->
-      </a>
-    </div>
+    <div class="row switch" id="switch">
+      <div class="column col-sm-6">
+        <h4 class="active" id="hourly">Hourly</h4>
+      </div>
+      <div class="column col-sm-6" id="dni">
+        <h4 class="default" id="daily">Daily</h4>
 
+      </div>
+
+    </div>
 
   </main>
 
@@ -404,6 +402,7 @@
     </div>
   </footer>
 
+  <script src="js/script.js"> </script>
 </body>
 
 </html>

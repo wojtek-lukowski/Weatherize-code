@@ -1,30 +1,23 @@
-function toggle() {
-  var x = document.getElementById('hourly');
-  if (x.className === 'active') {
-    x.className += ' default';
+/*document.querySelector('.switch').onclick = function () {
+  var x = document.getElementById('hourly')
+  var y = document.getElementById('daily')
+  if (x.style.color = 'white') {
+    x.style.color = '#a3a3a3'
+    y.style.color = 'white'
   } else {
-    x.className = 'active';
+    x.style.color = 'white'
+    y.style.color = '#a3a3a3'
+  }
+}*/
+
+document.querySelector('.switch').onclick = function () {
+  var x = document.getElementById('hourly')
+  var y = document.getElementById('daily')
+  if (x.className = 'active') {
+    x.className = ' default'
+    y.className = ' active'
+  } else {
+    x.className = 'active'
+    y.className = 'default'
   }
 }
-
-/*
-function weatherDisplay() {
-  var x = document.getElementById('weatherForecast');
-  if (x.className === 'hourly') {
-    x.className += ' daily';
-  } else {
-    x.className = 'hourly';
-  }
-}
-
-
-/*
-function display() {
-  var x = document.getElementById('hourly');
-  if (x.className === 'default') {
-    x.className += ' active';
-  } else {
-    x.className = 'default';
-  }
-}
-*/

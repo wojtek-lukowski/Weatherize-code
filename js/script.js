@@ -22,8 +22,13 @@ document.querySelector('.switch').onclick = function() {
   }
 }
 
-document.querySelector('#heart').onclick = function() {
-  console.log('test')
-  document.querySelector('#fav').style.display = 'none'
-  document.querySelector('#heart-full').style.display = 'block'
+document.querySelector('.fav').onclick = function() {
+  if (document.querySelector('#heart').style.display = 'inline') {
+    document.querySelector('#heart').style.display = 'none'
+    document.querySelector('#heart-full').style.display = 'inline'
+    console.log('added to favs')
+  } else {
+  document.querySelector('#heart-full').style.display = 'none'
+  document.querySelector('#heart').style.display = "inline"
+console.log('Removed from favs')}
 }

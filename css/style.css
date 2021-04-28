@@ -301,6 +301,11 @@ h3.temp {
   padding-top: 5px;
 }
 
+#heart-full {
+  display: none;
+}
+
+
 .line {
   display: inline-block;
 }

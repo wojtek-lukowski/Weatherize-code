@@ -277,7 +277,7 @@ ul.list {
 }
 
 .location {
-  margin: 60px 5px 10px 5px;
+  margin: 65px 5px 0 5px;
   padding: 5px 10px 20px 10px;
 }
 
@@ -403,15 +403,15 @@ h4.line {
   text-align: left;
 }
 
+/*
 .daily {
   display: none;
-}
-
+}*/
 .switch {
-  width: 200px;
+  width: 150px;
   margin: 15px auto;
   background-color: #000000;
-  padding: 12px;
+  padding: 10px;
   text-align: center;
 }
 
@@ -422,14 +422,20 @@ h4.line {
 h4.active {
   color: #ffffff;
   text-align: center;
+  font-size: 1.20em;
 }
 
 h4.default {
   color: #A3A3A3;
   text-align: center;
+  font-size: 1.20em;
 }
 
 .toggle-daily {
+  display: none;
+}
+
+#heart-full {
   display: none;
 }
 

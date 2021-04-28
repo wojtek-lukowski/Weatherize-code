@@ -10,7 +10,7 @@
   }
 }*/
 
-document.querySelector('.switch').onclick = function () {
+document.querySelector('.switch').onclick = function() {
   var x = document.getElementById('hourly')
   var y = document.getElementById('daily')
   if (x.className = 'active') {
@@ -20,4 +20,10 @@ document.querySelector('.switch').onclick = function () {
     x.className = 'active'
     y.className = 'default'
   }
+}
+
+document.querySelector('#heart').onclick = function() {
+  console.log('test')
+  document.querySelector('#fav').style.display = 'none'
+  document.querySelector('#heart-full').style.display = 'block'
 }

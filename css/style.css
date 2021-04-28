@@ -116,6 +116,7 @@ img {
 #create {
   background-color: #35EC1D;
   color: #000000;
+  padding-top: 12px;
 }
 
 #login {
@@ -164,6 +165,7 @@ ul {
   position: fixed;
   top: 0;
   font-family: Montserrat;
+  width: 90%;
 }
 
 .form {

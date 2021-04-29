@@ -25,14 +25,19 @@
         <p>NYC, USA</p>
       </div>
       <div class="column col-sm-4">
-        <a href="location-fav.html">
-        <img class="heart" id="heart" src="img/heart.svg" alt="fav">
-        <img class="heart" id="heart-full" src="img/heart-full.svg" alt="fav">
-        </a>
+
+        <svg  class="heart" xmlns="http://www.w3.org/2000/svg" width="21" height="18.656" viewBox="0 0 21 18.656">
+          <g id="fav_icon_empty" data-name="fav icon empty" transform="translate(0.5 -29.5)">
+            <g id="Group_407" data-name="Group 407" transform="translate(0 30)">
+              <path class="fav" id="Path_153" data-name="Path 153" d="M14.688,30a4.735,4.735,0,0,0-2.957,1.022A6.737,6.737,0,0,0,10,33.1a6.736,6.736,0,0,0-1.73-2.081A4.735,4.735,0,0,0,5.312,30C2.284,30,0,32.477,0,35.762c0,3.549,2.849,5.977,7.163,9.653.733.624,1.563,1.332,2.426,2.086a.625.625,0,0,0,.823,0c.863-.755,1.693-1.462,2.426-2.087C17.151,41.739,20,39.311,20,35.762,20,32.477,17.716,30,14.688,30Z" transform="translate(0 -30)" fill="none" stroke="#a3a3a3" stroke-width="1"/>
+            </g>
+          </g>
+        </svg>
+
       </div>
     </div>
 
-    <div class="forecast hourly" id="weatherForecast">
+    <div class="forecast hourly" id="ForecastHourly">
 
       <div class="fixed-card">
         <div class="bottomborder">
@@ -207,16 +212,196 @@
 
     </div>
 
-    <div class="row switch" id="switch">
-      <a href="location-daily.html">
-        <div class="column col-sm-6">
-          <h4 class="active" id="hourly">Hourly</h4>
+    <div class="forecast daily" id="ForecastDaily">
+      <div class="fixed-card">
+        <div class="bottomborder">
+          <h5>Day</h5>
         </div>
-        <div class="column col-sm-6" id="dni">
-          <h4 class="default" id="daily">Daily</h4>
+        <div class="attributes">
+          <div class="">
+            <h5>Temp</h5>
+          </div>
+          <div class="">
+            <h5>Sky</h5>
+          </div>
+          <div class="">
+            <h5>Precip.</h5>
+          </div>
+          <div class="">
+            <h5>Wind</h5>
+          </div>
+          <div class="">
+            <h5>Water</h5>
+          </div>
+          <div class="">
+            <h5>Waves</h5>
+          </div>
         </div>
-      </a>
+      </div>
+
+      <div class="weather-card first-card">
+        <div class="bottomborder">
+          <h5>Today</h5>
+        </div>
+        <div class="attributes">
+          <div class="">
+            <h5>20°C</h5>
+          </div>
+          <div class="">
+            <img src="img/cloud.svg" alt="cloud">
+          </div>
+          <div class="precip">
+            <h5>0 mm</h5>
+          </div>
+          <div class="row">
+            <div class="column col-sm-4 wind">
+              <img src="img/wind.svg" alt="wind">
+            </div>
+            <div class="column col-sm-8 wind-speed">
+              <h5>5 m/s</h5>
+            </div>
+          </div>
+          <div class="">
+            <h5>12°C</h5>
+          </div>
+          <div class="">
+            <h5>0,5 m</h5>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="weather-card">
+        <div class="bottomborder">
+          <h5>Tomorrow</h5>
+        </div>
+        <div class="attributes">
+          <div class="">
+            <h5>20°C</h5>
+          </div>
+          <div class="">
+            <img src="img/cloud.svg" alt="cloud">
+          </div>
+          <div class="precip">
+            <h5>0 mm</h5>
+          </div>
+          <div class="row">
+            <div class="column col-sm-4 wind">
+              <img src="img/wind.svg" alt="wind">
+            </div>
+            <div class="column col-sm-8 wind-speed">
+              <h5>5 m/s</h5>
+            </div>
+          </div>
+          <div class="">
+            <h5>12°C</h5>
+          </div>
+          <div class="">
+            <h5>0,5 m</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="weather-card">
+        <div class="bottomborder">
+          <h5>14.00</h5>
+        </div>
+        <div class="attributes">
+          <div class="">
+            <h5>20°C</h5>
+          </div>
+          <div class="">
+            <img src="img/cloud.svg" alt="cloud">
+          </div>
+          <div class="precip">
+            <h5>0 mm</h5>
+          </div>
+          <div class="row">
+            <div class="column col-sm-4 wind">
+              <img src="img/wind.svg" alt="wind">
+            </div>
+            <div class="column col-sm-8 wind-speed">
+              <h5>5 m/s</h5>
+            </div>
+          </div>
+          <div class="">
+            <h5>12°C</h5>
+          </div>
+          <div class="">
+            <h5>0,5 m</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="weather-card">
+        <div class="bottomborder">
+          <h5>13.00</h5>
+        </div>
+      </div>
+
+      <div class="weather-card">
+        <p>weather3</p>
+      </div>
+
+      <div class="weather-card">
+        <p>weather4</p>
+      </div>
+
+      <div class="weather-card">
+        <p>weather3</p>
+      </div>
+
+      <div class="weather-card">
+        <p>weather3</p>
+      </div>
+
+      <div class="weather-card">
+        <p>weather3</p>
+      </div>
+
+      <div class="weather-card">
+        <p>weather3</p>
+      </div>
+
+      <div class="weather-card">
+        <p>weather3</p>
+      </div>
+
+      <div class="weather-card">
+        <p>weather3</p>
+      </div>
+
+      <div class="weather-card">
+        <p>weather3</p>
+      </div>
+
+      <div class="weather-card">
+        <p>weather3</p>
+      </div>
+
+      <div class="weather-card">
+        <p>weather3</p>
+      </div>
+
     </div>
+
+<div class="toggle" id="hourly-on">
+<div data-page="hourly" class="switch toggle-hourly selected">
+  <h4 class="white">Hourly</h4>
+</div>
+<div data-page="daily" class="switch toggle-daily default">
+  <h4>Daily</h4>
+</div>
+</div>
+
+<div class="toggle" id="daily-on">
+<div data-page="hourly" class="switch toggle-hourly toggle-hourly1 default">
+  <h4>Hourly</h4>
+</div>
+<div data-page="daily" class="switch toggle-daily toggle-daily1 selected">
+  <h4 class="white">Daily</h4>
+</div>
+</div>
 
   </main>
 

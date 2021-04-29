@@ -303,11 +303,34 @@ h3.temp {
   padding-top: 5px;
 }
 
+.full {
+  display: none;
+}
+
+.unfav {
+  animation-name: unfaving;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: paused;
+}
+
+@keyframes unfaving {
+  0% {
+    fill: #a3a3a3;
+  }
+
+  100% {
+    fill: red;
+  }
+}
+
 .fav {
   animation-name: faving;
-  animation-duration: 1.5s;
-  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  animation-play-state: paused;
 }
 
 @keyframes faving {
@@ -318,7 +341,7 @@ h3.temp {
     color: #a3a3a3;
   }
 
-  50% {
+  30% {
     fill: #35EC1D;
     height: 120%;
     width: auto;

@@ -30,22 +30,37 @@ document.querySelector('.toggle-daily1').onclick = () => {
   document.querySelector('#daily-on').style.display = 'block'
 }
 
-var x = document.querySelector('.fav')
-x.style.animationPlayState = 'paused'
-document.queryselector('.heart').onclick = () => {
-  console.log("added to favs")
-  x.style.animationPlayState = 'running'
+document.querySelector('#heart').onclick = () => {
+  var x = document.querySelector('#control')
+  var y = document.querySelector('#empty')
+  var z = document.querySelector('#full')
+  console.log(x)
+  console.log(y)
+  console.log(z)
+  if (x.className === 'unfaved') {
+    document.querySelector('.fav').style.animationPlayState = "running"
+    x.className += ' faved'
+    y.className += ' full'
+    z.className += ' heart'
+    console.log('added to favs')
+    console.log(x)
+    console.log(y)
+    console.log(z)
+  } else {
+    document.querySelector('.unfav').style.animationPlayState = "running"
+    x.className = 'unfaved'
+    console.log('removed from favs')
+  }
 }
 
 
 /*
-document.querySelector('.fav').onclick = function() {
-  if (document.querySelector('#heart').style.display = 'inline') {
-    document.querySelector('#heart').style.display = 'none'
-    document.querySelector('#heart-full').style.display = 'inline'
-    console.log('added to favs')
-  } else {
-  document.querySelector('#heart-full').style.display = 'none'
-  document.querySelector('#heart').style.display = "inline"
-console.log('Removed from favs')}
+  {
+  console.log("added to favs")
+  document.querySelector('.fav').style.animationPlayState = "running"
+
+console.log(h)
+} else  {
+  document.querySelector('.unfav').style.animationPlayState = "running"
+}
 }*/

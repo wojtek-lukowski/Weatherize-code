@@ -303,13 +303,13 @@ h3.temp {
   padding-top: 5px;
 }
 
-.full {
+#full {
   display: none;
 }
 
 .unfav {
   animation-name: unfaving;
-  animation-duration: 1s;
+  animation-duration: .5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-play-state: paused;
@@ -336,22 +336,16 @@ h3.temp {
 @keyframes faving {
   0% {
     fill: transparent;
-    height: 100%;
-    width: auto;
     color: #a3a3a3;
   }
 
   30% {
     fill: #35EC1D;
-    height: 120%;
-    width: auto;
     color: #35EC1D;
   }
 
   100% {
     fill: #a3a3a3;
-    height: 100%;
-    width: auto;
     color: #a3a3a3;
   }
 }

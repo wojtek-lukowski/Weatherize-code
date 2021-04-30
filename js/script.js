@@ -14,6 +14,7 @@ document.querySelector('.toggle-daily').onclick = () => {
   document.querySelector('#daily-on').style.display = 'block'
 }
 
+
 document.querySelector('.toggle-hourly1').onclick = function() {
   if (document.querySelector('#ForecastHourly').style.display = 'none')
     document.querySelector('#ForecastHourly').style.display = 'flex'

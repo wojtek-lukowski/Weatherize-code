@@ -31,27 +31,22 @@ document.querySelector('.toggle-daily1').onclick = () => {
   document.querySelector('#daily-on').style.display = 'block'
 }
 
-
 document.querySelector('#empty').onclick = () => {
-  if (document.querySelector('#empty').style.display = 'inline') {
-    //document.querySelector('.fav').style.animationPlayState = "running"
-    //setTimeout(function() {
-      document.querySelector('#empty').style.display = 'none'
-      document.querySelector('#full').style.display = 'inline'
-      console.log("Added to favs")
-    //}, 1100);
-    console.log('animation fav')
-  }
+  //document.querySelector('.fav').style.animationPlayState = "running"
+  //setTimeout(function() {
+    document.querySelector('#empty').style.display = 'none'
+    document.querySelector('#full').style.display = 'inline'
+    console.log("Added to favs")
+  //}, 1100);
+  console.log('animation fav')
 }
 
 document.querySelector('#full').onclick = () => {
-  if (document.querySelector('#full').style.display = 'inline') {
-    //document.querySelector('.unfav').style.animationPlayState = "running"
-//setTimeout(function() {
+  //document.querySelector('.unfav').style.animationPlayState = "running"
+  //setTimeout(function() {
     document.querySelector('#full').style.display = 'none'
     document.querySelector('#empty').style.display = 'inline'
     console.log("Removed from favs")
   //}, 600);
   console.log('animation unfav')
-  }
 }

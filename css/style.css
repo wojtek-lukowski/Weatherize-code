@@ -549,7 +549,7 @@ h4.white {
   padding-top: 200px;
 }
 
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 375px) {
 .warning {
   display: block;
 }

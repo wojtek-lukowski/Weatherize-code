@@ -46,12 +46,11 @@ document.querySelector('#empty').onclick = () => {
 }
 
 document.querySelector('#full').onclick = () => {
-  // document.querySelector('.unfav').style.animationPlayState = "running"
-  document.querySelector('#full').style.display = 'none'
-  document.querySelector('#empty').style.display = 'inline'
+// document.querySelector('.unfav').style.animationPlayState = "running"
+document.querySelector('#full').style.display = 'none'
+document.querySelector('#empty').style.display = 'inline'
   setTimeout(function() {
-    document.querySelector('#full').style.display = 'none'
-    document.querySelector('#empty').style.display = 'inline'
+    // document.querySelector('.fav').style.animationPlayState = "paused"
     alert('Location removed from favorites.')
     console.log("Removed from favs")
   }, 100);

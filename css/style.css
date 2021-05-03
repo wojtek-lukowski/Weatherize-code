@@ -95,7 +95,7 @@ img {
   margin: 75px auto;
 }
 
-.button {
+input[type=submit] {
   display: inline-block;
   background-color: #35EC1D;
   color: #000000;
@@ -110,7 +110,7 @@ img {
   text-transform: uppercase;
   min-width: 280px;
   min-height: 48px;
-  margin: 0 10px 10px 10px;
+  margin: 10px;
 }
 
 #create {
@@ -135,7 +135,7 @@ ul {
   text-align: center;
 }
 
-.input {
+input {
   display: inline-block;
   background-color: #ffffff;
   color: #000000;

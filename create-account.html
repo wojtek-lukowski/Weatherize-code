@@ -23,12 +23,25 @@
       <form action="dashboard.html">
         <ul>
           <li><input id="email" type="email" placeholder="Email" class="input" required></li>
-          <li><input id="password" type="password" placeholder="Password" class="input" required></li>
+          <li><input id="password" type="password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" class="input" required></li>
+          <li id="message">
+              <div class="row">
+                <div class="column col-sm-6">
+                  <p id="capital" class="invalid">Uppercase</p>
+                  <p id="letter" class="invalid">Lowercase</p>
+                </div>
+                <div class="column col-sm-6">
+                  <p id="length" class="invalid">Minimum 8 characters</p>
+                  <p id="number" class="invalid">Number</p>
+                </div>
+              </div>
+          </li>
         </ul>
         <button type="submit" class="button create">Create Account</button>
       </form>
     </div>
   </main>
-  <script src="js/script.js"> </script>
+  <script src="js/validation.js"> </script>
 </body>
+
 </html>

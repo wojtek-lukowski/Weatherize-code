@@ -110,7 +110,7 @@ img {
   text-transform: uppercase;
   min-width: 280px;
   min-height: 48px;
-  margin: 10px;
+  margin: 0 10px 10px 10px;
 }
 
 #create {
@@ -170,6 +170,34 @@ ul {
 
 .form {
   text-align: center;
+}
+
+#message {
+  width: 280px;
+  margin: auto;
+  padding-left: 5px;
+  text-align: left;
+  display: none;
+}
+
+.valid {
+  color: #35EC1D;
+}
+
+.valid:before {
+  position: relative;
+  left: -5px;
+  content: "√";
+}
+
+.invalid {
+  color: #FF0000;
+}
+
+.invalid:before {
+  position: relative;
+  left: -5px;
+  content: "x";
 }
 
 footer {

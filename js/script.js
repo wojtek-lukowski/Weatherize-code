@@ -111,3 +111,17 @@ document.querySelector('#full').onclick = () => {
   }, 500);
   console.log('animation unfav');
 }
+
+      document.querySelector('#location').onsubmit = function() {
+          var search = document.querySelector('#search').value;
+          document.querySelector('h3').innerHTML = search;
+          console.log(search);
+        }
+
+
+          /*
+          var search = document.querySelector('#search').onsubmit;
+          document.querySelector('#location').onsubmit = () => {
+            document.querySelector('h3').innerHTML = search;
+            console.log(search);
+          };*/

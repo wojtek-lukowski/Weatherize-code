@@ -13,29 +13,42 @@
 
 <body class="create">
   <main>
-    <div class="container logo">
-      <img src="img/logo.svg" alt="logo">
-    </div>
     <div class="container">
-      <h2>Create account with email</h2>
-    </div>
-    <div class="form">
-      <form action="dashboard.html">
-        <input id="email" type="email" placeholder="Email" name="email" required>
-        <input id="password" type="password" placeholder="Password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
-        <div class="row" id="message">
-          <div class="column col-sm-6">
-            <p id="capital" class="invalid">Uppercase</p>
-            <p id="letter" class="invalid">Lowercase</p>
+      <div class="container row">
+        <div class="column col-sm-12 col-md-12 col-lg-6">
+          <div class="container logo">
+            <img id="logo" src="img/logo.svg" alt="logo">
           </div>
-          <div class="column col-sm-6">
-            <p id="length" class="invalid">Minimum 8 characters</p>
-            <p id="number" class="invalid">Number</p>
+          <div class="container headline no-mob">
+            <h1>Weather forecast for the tough.</h1>
           </div>
         </div>
-        <input type="submit" value="Create Account">
-        <!-- > <button type="submit" class="button create">Create Account</button><-->
-      </form>
+        <div class="column col-sm-12 col-md-12 col-lg-6">
+          <div class="container box">
+            <div class="container">
+              <h2>Create account with email</h2>
+            </div>
+            <div class="form">
+              <form action="dashboard.html">
+                <input id="email" type="email" placeholder="Email" name="email" required>
+                <input id="password" type="password" placeholder="Password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+                <div class="row" id="message">
+                  <div class="column col-sm-6">
+                    <p id="capital" class="invalid">Uppercase</p>
+                    <p id="letter" class="invalid">Lowercase</p>
+                  </div>
+                  <div class="column col-sm-6">
+                    <p id="length" class="invalid">Minimum 8 characters</p>
+                    <p id="number" class="invalid">Number</p>
+                  </div>
+                </div>
+                <input type="submit" value="Create Account">
+                <!-- > <button type="submit" class="button create">Create Account</button><-->
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </main>
   <script src="js/validation.js"> </script>

@@ -699,13 +699,15 @@ input {
   }
 
   .headline {
-    margin-top: 160px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0px auto;
     font-size: 1.8em;
     max-width: 500px;
     padding: 0 15px;
   }
+
+#headline {
+  margin-top: 120px;
+}
 
 .no-mob {
   margin-left: auto;
@@ -713,7 +715,7 @@ input {
 }
 
   .box {
-    margin-top: 400px;
+    margin-top: 350px;
   }
 
   .buttons {

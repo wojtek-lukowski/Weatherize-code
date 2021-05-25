@@ -14,10 +14,25 @@
   <main>
 
     <header class="search-container">
-      <form id="location">
-        <input id="search" type="search" placeholder="Find location..." class="search">
-      </form>
+      <div class="rowNavi">
+        <div class="col-md-6 col-lg-6 left">
+          <form id="location">
+            <input id="search" type="search" placeholder="Find location..." class="search">
+          </form>
+        </div>
+        <div class="col-md-6 col-lg-6 right">
+          <nav class="navigationDesktop">
+            <ul>
+              <li><a href="#">Dashboard</a></li>
+              <li class="menuActive"><a href="#">Locations</a></li>
+              <li><a href="#">Settings</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </header>
+
+<div class="width-1600">
 
     <div class="row location">
       <div class="column col-sm-8">
@@ -398,7 +413,7 @@
       </div>
 
     </div>
-
+</div>
 
 <div class="toggle hourly" id="hourly-on">
 <div data-page="hourly" class="switch toggle-hourly selected">

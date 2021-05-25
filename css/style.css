@@ -621,6 +621,17 @@ input {
   margin-top: 70px;
 }
 
+.navigationDesktop {
+  display: none;
+}
+
+.containerDesktop {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 @media only screen and (min-width: 640px) {
   body.create {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.25)), url("../img/background-640@2x.jpg");
@@ -678,6 +689,10 @@ input {
     width: 16.66%;
   }
 
+  .col-md-6 {
+    width: 50%;
+  }
+
   .col-md-12 {
     width: 100%;
   }
@@ -705,12 +720,11 @@ input {
     width: auto;
   }
 
-.wind2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
+  .wind2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
   h3.secondary {
     font-size: 1.6em;
@@ -727,6 +741,72 @@ input {
   h3.white {
     color: #ffffff;
   }
+
+  .navigationMobile {
+    display: none;
+  }
+
+  footer {
+    height: 20px;
+  }
+
+  #location {
+    display: inline-block;
+  }
+
+  .search {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+  }
+
+  .navigationDesktop {
+    display: inline-block;
+    font-size: 1.3em;
+    float: right;
+    padding-top: 5px;
+  }
+
+  nav.navigationDesktop ul li a, a:visited {
+    color: #A3A3A3;
+  }
+
+  nav.navigationDesktop ul li a:hover, a:active {
+    color: #35EC1D;
+    text-decoration: underline;
+  }
+
+  nav.navigationDesktop ul li.menuActive a, a:visited, a:hover, a:active {
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: #35EC1D;
+    text-decoration-thickness: 3px;
+  }
+
+  .left {
+    text-align: left;
+    padding-left: 5px;
+  }
+
+  .right {
+    text-align: right;
+    padding-right: 5px;
+  }
+.location {
+  padding: 30px 15px 25px 15px;
+}
+
+.toggle {
+  margin-top: 30px;
+}
+
+.width-1600 {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 }
 
@@ -790,6 +870,35 @@ input {
     clear: both;
     display: table;
   }
+
+  .top-640 {
+    margin-top: 100px;
+  }
+
+  .navigationDesktop {
+    font-size: 1.5em;
+  }
+
+  .left {
+    text-align: left;
+    padding-left: 35px;
+  }
+
+  .right {
+    text-align: right;
+    padding-right: 35px;
+  }
+
+.rowNavi {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fixed-card {
+  display: inline-block;
+}
+
 }
 
 @media only screen and (min-width: 2500px) {

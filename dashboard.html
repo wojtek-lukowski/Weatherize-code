@@ -14,9 +14,22 @@
   <main>
 
     <header class="search-container">
-      <form id="location">
-        <input id="search" type="search" placeholder="Find location..." class="search">
-      </form>
+      <div class="rowNavi">
+        <div class="col-md-6 col-lg-6 left">
+          <form id="location">
+            <input id="search" type="search" placeholder="Find location..." class="search">
+          </form>
+        </div>
+        <div class="col-md-6 col-lg-6 right">
+          <nav class="navigationDesktop">
+            <ul>
+              <li class="menuActive"><a href="#">Dashboard</a></li>
+              <li><a href="#">Locations</a></li>
+              <li><a href="#">Settings</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </header>
 
     <div class="container top">
@@ -44,7 +57,7 @@
       </div>
     </div>
 
-    <div class="container top-640">
+    <div class="containerDesktop top-640">
       <h4>Your current location</h4>
       <div class="card">
         <div class="row">
@@ -108,7 +121,7 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="containerDesktop">
       <h4>Near you</h4>
       <ul class="list">
         <li>
@@ -179,7 +192,7 @@
 
   <footer>
     <div>
-      <nav>
+      <nav class="navigationMobile">
         <ul>
           <li><a href="#"><img src="img/dashboard-active.svg" alt="dashboard"></a></li>
           <li><a href="#"><img src="img/locations.svg" alt="locations"></a></li>

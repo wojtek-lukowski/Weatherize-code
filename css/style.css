@@ -631,7 +631,6 @@ input {
   margin-right: auto;
 }
 
-
 @media only screen and (min-width: 640px) {
   body.create {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.25)), url("../img/background-640@2x.jpg");
@@ -793,21 +792,20 @@ input {
     text-align: right;
     padding-right: 5px;
   }
-.location {
-  padding: 30px 15px 25px 15px;
-}
 
-.toggle {
-  margin-top: 30px;
-}
+  .location {
+    padding: 30px 15px 25px 15px;
+  }
 
-.width-1600 {
-  max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
-}
+  .toggle {
+    margin-top: 30px;
+  }
 
-
+  .width-1600 {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -889,16 +887,15 @@ input {
     padding-right: 35px;
   }
 
-.rowNavi {
-  max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
-}
+  .rowNavi {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-.fixed-card {
-  display: inline-block;
-}
+  .fixed-card {
 
+  }
 }
 
 @media only screen and (min-width: 2500px) {

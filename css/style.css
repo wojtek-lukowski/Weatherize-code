@@ -8,6 +8,7 @@ header {
   width: 100%;
   position: fixed;
   top: 0;
+  z-index: 999;
 }
 
 body {
@@ -336,8 +337,8 @@ ul.list {
 }
 
 .location {
-  margin: 60px 5px 0 5px;
-  padding: 5px 10px 20px 10px;
+  margin: 70px 5px 0 5px;
+  padding: 0 10px 20px 10px;
 }
 
 h3.temp {
@@ -627,7 +628,16 @@ input {
 
 .top-640 {
   display: none;
-  margin-top: 70px;
+  margin-top: 100px;
+  position: sticky;
+  top: 100px;
+  z-index: 998;
+  background-color: #070707;
+}
+
+#sticky {
+  position: sticky;
+  top: 300px;
 }
 
 .navigationDesktop {
@@ -640,10 +650,24 @@ input {
   margin-right: auto;
 }
 
+.sticky {
+  position: sticky;
+  top: 200px;
+}
+
+#logo {
+  display: none;
+}
+
+
 @media only screen and (min-width: 640px) {
   body.create {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.25)), url("../img/background-640@2x.jpg");
   }
+
+#mob {
+  display: none;
+}
 
   .logo {
     margin-top: 100px;
@@ -758,9 +782,7 @@ input {
     height: 20px;
   }
 
-  #location {
-    display: inline-block;
-  }
+
 
   .search {
     position: relative;
@@ -802,12 +824,8 @@ input {
     padding-right: 5px;
   }
 
-  .location {
-    padding: 30px 15px 25px 15px;
-  }
-
   .toggle {
-    margin-top: 30px;
+    margin-top: 20px;
   }
 
   .width-1600 {
@@ -834,6 +852,35 @@ input {
   margin-left: 15px;
 }
 
+#search2 {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+#location {
+  display: none;
+}
+
+#logo {
+  display: inline-block;
+  height: 50px;
+  width: auto;
+  margin-top: 15px;
+}
+
+.margin-top {
+  margin-top: 80px;
+  width: 80%;
+}
+
+.location {
+  margin: 10px 5px 0 5px;
+}
+
+#location2 {
+  padding-right: 10px;
+}
+
 }
 
 @media only screen and (min-width: 1024px) {
@@ -843,10 +890,6 @@ input {
 
   .logo {
     margin-top: 100px;
-  }
-
-  #logo {
-    max-height: 100px;
   }
 
   .headline {
@@ -897,10 +940,6 @@ input {
     display: table;
   }
 
-  .top-640 {
-    margin-top: 100px;
-  }
-
   .navigationDesktop {
     font-size: 1.5em;
   }
@@ -920,6 +959,7 @@ input {
     margin-left: auto;
     margin-right: auto;
   }
+
 
 }
 

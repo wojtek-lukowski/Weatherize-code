@@ -6,13 +6,16 @@
   <title>Weatherize location</title>
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" type="image/jpg" href="img/wlogo-black.svg"/>
+  <link rel="shortcut icon" type="image/jpg" href="img/wlogo-black.svg" />
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-JSH815JXN4"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
 
     gtag('config', 'G-JSH815JXN4');
@@ -24,8 +27,10 @@
 
     <header class="search-container">
       <div class="rowNavi">
-        <div class="col-md-6 col-lg-6 left">
+        <div class="col-md-6 col-lg-6 left" id="left">
+          <a href="dashboard-returning.html">
           <img src="img/logo-name.svg" alt="logo" id="logo">
+          </a>
           <form id="location">
             <input id="search" type="search" placeholder="Find location..." class="search">
           </form>
@@ -57,7 +62,6 @@
 
         <div class="unfaved" id="control">
         </div>
-
 
         <div class="column col-sm-4" id="heart">
 
@@ -151,7 +155,100 @@
             </div>
             <div class="attributes">
               <div class="">
-                <h5>20°C</h5>
+                <h5>21°C</h5>
+              </div>
+              <div class="">
+                <img src="img/cloud.svg" alt="cloud">
+              </div>
+              <div class="precip">
+                <h5>0 mm</h5>
+              </div>
+              <div class="row">
+                <div class="column col-sm-4 wind">
+                  <img src="img/wind.svg" alt="wind">
+                </div>
+                <div class="column col-sm-8 wind-speed">
+                  <h5>6 m/s</h5>
+                </div>
+              </div>
+              <div class="">
+                <h5>12°C</h5>
+              </div>
+              <div class="">
+                <h5>0,6 m</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="weather-card">
+            <div class="bottomborder">
+              <h5>14.00</h5>
+            </div>
+            <div class="attributes">
+              <div class="">
+                <h5>22°C</h5>
+              </div>
+              <div class="">
+                <img src="img/cloud.svg" alt="cloud">
+              </div>
+              <div class="precip">
+                <h5>1 mm</h5>
+              </div>
+              <div class="row">
+                <div class="column col-sm-4 wind">
+                  <img src="img/wind.svg" alt="wind">
+                </div>
+                <div class="column col-sm-8 wind-speed">
+                  <h5>3 m/s</h5>
+                </div>
+              </div>
+              <div class="">
+                <h5>12°C</h5>
+              </div>
+              <div class="">
+                <h5>0,4 m</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="weather-card">
+            <div class="bottomborder">
+              <h5>15.00</h5>
+            </div>
+            <div class="attributes">
+              <div class="">
+                <h5>24°C</h5>
+              </div>
+              <div class="">
+                <img src="img/cloud.svg" alt="cloud">
+              </div>
+              <div class="precip">
+                <h5>0 mm</h5>
+              </div>
+              <div class="row">
+                <div class="column col-sm-4 wind">
+                  <img src="img/wind.svg" alt="wind">
+                </div>
+                <div class="column col-sm-8 wind-speed">
+                  <h5>10 m/s</h5>
+                </div>
+              </div>
+              <div class="">
+                <h5>12°C</h5>
+              </div>
+              <div class="">
+                <h5>0,7 m</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="weather-card">
+            <div class="bottomborder">
+              <h5>16.00</h5>
+            </div>
+            <div class="attributes">
+              <div class="">
+                <h5>24°C</h5>
               </div>
               <div class="">
                 <img src="img/cloud.svg" alt="cloud">
@@ -178,7 +275,69 @@
 
           <div class="weather-card">
             <div class="bottomborder">
-              <h5>14.00</h5>
+              <h5>17.00</h5>
+            </div>
+            <div class="attributes">
+              <div class="">
+                <h5>24°C</h5>
+              </div>
+              <div class="">
+                <img src="img/cloud.svg" alt="cloud">
+              </div>
+              <div class="precip">
+                <h5>0 mm</h5>
+              </div>
+              <div class="row">
+                <div class="column col-sm-4 wind">
+                  <img src="img/wind.svg" alt="wind">
+                </div>
+                <div class="column col-sm-8 wind-speed">
+                  <h5>5 m/s</h5>
+                </div>
+              </div>
+              <div class="">
+                <h5>12°C</h5>
+              </div>
+              <div class="">
+                <h5>0,5 m</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="weather-card">
+            <div class="bottomborder">
+              <h5>18.00</h5>
+            </div>
+            <div class="attributes">
+              <div class="">
+                <h5>23°C</h5>
+              </div>
+              <div class="">
+                <img src="img/cloud.svg" alt="cloud">
+              </div>
+              <div class="precip">
+                <h5>0 mm</h5>
+              </div>
+              <div class="row">
+                <div class="column col-sm-4 wind">
+                  <img src="img/wind.svg" alt="wind">
+                </div>
+                <div class="column col-sm-8 wind-speed">
+                  <h5>5 m/s</h5>
+                </div>
+              </div>
+              <div class="">
+                <h5>12°C</h5>
+              </div>
+              <div class="">
+                <h5>0,5 m</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="weather-card">
+            <div class="bottomborder">
+              <h5>19.00</h5>
             </div>
             <div class="attributes">
               <div class="">
@@ -209,58 +368,505 @@
 
           <div class="weather-card">
             <div class="bottomborder">
-              <h5>13.00</h5>
+              <h5>20.00</h5>
+            </div>
+            <div class="attributes">
+              <div class="">
+                <h5>18°C</h5>
+              </div>
+              <div class="">
+                <img src="img/cloud.svg" alt="cloud">
+              </div>
+              <div class="precip">
+                <h5>0 mm</h5>
+              </div>
+              <div class="row">
+                <div class="column col-sm-4 wind">
+                  <img src="img/wind.svg" alt="wind">
+                </div>
+                <div class="column col-sm-8 wind-speed">
+                  <h5>5 m/s</h5>
+                </div>
+              </div>
+              <div class="">
+                <h5>12°C</h5>
+              </div>
+              <div class="">
+                <h5>0,5 m</h5>
+              </div>
             </div>
           </div>
 
           <div class="weather-card">
-            <p>weather3</p>
+            <div class="bottomborder">
+              <h5>21.00</h5>
+            </div>
+            <div class="attributes">
+              <div class="">
+                <h5>18°C</h5>
+              </div>
+              <div class="">
+                <img src="img/cloud.svg" alt="cloud">
+              </div>
+              <div class="precip">
+                <h5>0 mm</h5>
+              </div>
+              <div class="row">
+                <div class="column col-sm-4 wind">
+                  <img src="img/wind.svg" alt="wind">
+                </div>
+                <div class="column col-sm-8 wind-speed">
+                  <h5>5 m/s</h5>
+                </div>
+              </div>
+              <div class="">
+                <h5>12°C</h5>
+              </div>
+              <div class="">
+                <h5>0,5 m</h5>
+              </div>
+            </div>
           </div>
 
           <div class="weather-card">
-            <p>weather4</p>
+            <div class="bottomborder">
+              <h5>22.00</h5>
+            </div>
+            <div class="attributes">
+              <div class="">
+                <h5>17°C</h5>
+              </div>
+              <div class="">
+                <img src="img/cloud.svg" alt="cloud">
+              </div>
+              <div class="precip">
+                <h5>0 mm</h5>
+              </div>
+              <div class="row">
+                <div class="column col-sm-4 wind">
+                  <img src="img/wind.svg" alt="wind">
+                </div>
+                <div class="column col-sm-8 wind-speed">
+                  <h5>5 m/s</h5>
+                </div>
+              </div>
+              <div class="">
+                <h5>12°C</h5>
+              </div>
+              <div class="">
+                <h5>0,5 m</h5>
+              </div>
+            </div>
           </div>
 
           <div class="weather-card">
-            <p>weather3</p>
+            <div class="bottomborder">
+              <h5>23.00</h5>
+            </div>
+            <div class="attributes">
+              <div class="">
+                <h5>16°C</h5>
+              </div>
+              <div class="">
+                <img src="img/cloud.svg" alt="cloud">
+              </div>
+              <div class="precip">
+                <h5>0 mm</h5>
+              </div>
+              <div class="row">
+                <div class="column col-sm-4 wind">
+                  <img src="img/wind.svg" alt="wind">
+                </div>
+                <div class="column col-sm-8 wind-speed">
+                  <h5>5 m/s</h5>
+                </div>
+              </div>
+              <div class="">
+                <h5>12°C</h5>
+              </div>
+              <div class="">
+                <h5>0,5 m</h5>
+              </div>
+            </div>
           </div>
 
           <div class="weather-card">
-            <p>weather3</p>
+            <div class="bottomborder">
+              <h5>00.00</h5>
+            </div>
+            <div class="attributes">
+              <div class="">
+                <h5>16°C</h5>
+              </div>
+              <div class="">
+                <img src="img/cloud.svg" alt="cloud">
+              </div>
+              <div class="precip">
+                <h5>0 mm</h5>
+              </div>
+              <div class="row">
+                <div class="column col-sm-4 wind">
+                  <img src="img/wind.svg" alt="wind">
+                </div>
+                <div class="column col-sm-8 wind-speed">
+                  <h5>5 m/s</h5>
+                </div>
+              </div>
+              <div class="">
+                <h5>12°C</h5>
+              </div>
+              <div class="">
+                <h5>0,5 m</h5>
+              </div>
+            </div>
           </div>
 
           <div class="weather-card">
-            <p>weather3</p>
+            <div class="bottomborder">
+              <h5>1.00</h5>
+            </div>
+            <div class="attributes">
+              <div class="">
+                <h5>14°C</h5>
+              </div>
+              <div class="">
+                <img src="img/cloud.svg" alt="cloud">
+              </div>
+              <div class="precip">
+                <h5>0 mm</h5>
+              </div>
+              <div class="row">
+                <div class="column col-sm-4 wind">
+                  <img src="img/wind.svg" alt="wind">
+                </div>
+                <div class="column col-sm-8 wind-speed">
+                  <h5>5 m/s</h5>
+                </div>
+              </div>
+              <div class="">
+                <h5>12°C</h5>
+              </div>
+              <div class="">
+                <h5>0,5 m</h5>
+              </div>
+            </div>
           </div>
 
           <div class="weather-card">
-            <p>weather3</p>
+            <div class="bottomborder">
+              <h5>2.00</h5>
+            </div>
+            <div class="attributes">
+              <div class="">
+                <h5>13°C</h5>
+              </div>
+              <div class="">
+                <img src="img/cloud.svg" alt="cloud">
+              </div>
+              <div class="precip">
+                <h5>0 mm</h5>
+              </div>
+              <div class="row">
+                <div class="column col-sm-4 wind">
+                  <img src="img/wind.svg" alt="wind">
+                </div>
+                <div class="column col-sm-8 wind-speed">
+                  <h5>5 m/s</h5>
+                </div>
+              </div>
+              <div class="">
+                <h5>12°C</h5>
+              </div>
+              <div class="">
+                <h5>0,5 m</h5>
+              </div>
+            </div>
           </div>
 
           <div class="weather-card">
-            <p>weather3</p>
+            <div class="bottomborder">
+              <h5>3.00</h5>
+            </div>
+            <div class="attributes">
+              <div class="">
+                <h5>12°C</h5>
+              </div>
+              <div class="">
+                <img src="img/cloud.svg" alt="cloud">
+              </div>
+              <div class="precip">
+                <h5>0 mm</h5>
+              </div>
+              <div class="row">
+                <div class="column col-sm-4 wind">
+                  <img src="img/wind.svg" alt="wind">
+                </div>
+                <div class="column col-sm-8 wind-speed">
+                  <h5>5 m/s</h5>
+                </div>
+              </div>
+              <div class="">
+                <h5>12°C</h5>
+              </div>
+              <div class="">
+                <h5>0,5 m</h5>
+              </div>
+            </div>
           </div>
 
           <div class="weather-card">
-            <p>weather3</p>
+            <div class="bottomborder">
+              <h5>4.00</h5>
+            </div>
+            <div class="attributes">
+              <div class="">
+                <h5>10°C</h5>
+              </div>
+              <div class="">
+                <img src="img/cloud.svg" alt="cloud">
+              </div>
+              <div class="precip">
+                <h5>0 mm</h5>
+              </div>
+              <div class="row">
+                <div class="column col-sm-4 wind">
+                  <img src="img/wind.svg" alt="wind">
+                </div>
+                <div class="column col-sm-8 wind-speed">
+                  <h5>5 m/s</h5>
+                </div>
+              </div>
+              <div class="">
+                <h5>12°C</h5>
+              </div>
+              <div class="">
+                <h5>0,5 m</h5>
+              </div>
+            </div>
           </div>
 
           <div class="weather-card">
-            <p>weather3</p>
+            <div class="bottomborder">
+              <h5>5.00</h5>
+            </div>
+            <div class="attributes">
+              <div class="">
+                <h5>9°C</h5>
+              </div>
+              <div class="">
+                <img src="img/cloud.svg" alt="cloud">
+              </div>
+              <div class="precip">
+                <h5>0 mm</h5>
+              </div>
+              <div class="row">
+                <div class="column col-sm-4 wind">
+                  <img src="img/wind.svg" alt="wind">
+                </div>
+                <div class="column col-sm-8 wind-speed">
+                  <h5>5 m/s</h5>
+                </div>
+              </div>
+              <div class="">
+                <h5>12°C</h5>
+              </div>
+              <div class="">
+                <h5>0,5 m</h5>
+              </div>
+            </div>
           </div>
 
           <div class="weather-card">
-            <p>weather3</p>
+            <div class="bottomborder">
+              <h5>6.00</h5>
+            </div>
+            <div class="attributes">
+              <div class="">
+                <h5>9°C</h5>
+              </div>
+              <div class="">
+                <img src="img/cloud.svg" alt="cloud">
+              </div>
+              <div class="precip">
+                <h5>0 mm</h5>
+              </div>
+              <div class="row">
+                <div class="column col-sm-4 wind">
+                  <img src="img/wind.svg" alt="wind">
+                </div>
+                <div class="column col-sm-8 wind-speed">
+                  <h5>5 m/s</h5>
+                </div>
+              </div>
+              <div class="">
+                <h5>12°C</h5>
+              </div>
+              <div class="">
+                <h5>0,5 m</h5>
+              </div>
+            </div>
           </div>
 
           <div class="weather-card">
-            <p>weather3</p>
+            <div class="bottomborder">
+              <h5>7.00</h5>
+            </div>
+            <div class="attributes">
+              <div class="">
+                <h5>10°C</h5>
+              </div>
+              <div class="">
+                <img src="img/cloud.svg" alt="cloud">
+              </div>
+              <div class="precip">
+                <h5>0 mm</h5>
+              </div>
+              <div class="row">
+                <div class="column col-sm-4 wind">
+                  <img src="img/wind.svg" alt="wind">
+                </div>
+                <div class="column col-sm-8 wind-speed">
+                  <h5>5 m/s</h5>
+                </div>
+              </div>
+              <div class="">
+                <h5>12°C</h5>
+              </div>
+              <div class="">
+                <h5>0,5 m</h5>
+              </div>
+            </div>
           </div>
+
+          <div class="weather-card">
+            <div class="bottomborder">
+              <h5>8.00</h5>
+            </div>
+            <div class="attributes">
+              <div class="">
+                <h5>13°C</h5>
+              </div>
+              <div class="">
+                <img src="img/cloud.svg" alt="cloud">
+              </div>
+              <div class="precip">
+                <h5>0 mm</h5>
+              </div>
+              <div class="row">
+                <div class="column col-sm-4 wind">
+                  <img src="img/wind.svg" alt="wind">
+                </div>
+                <div class="column col-sm-8 wind-speed">
+                  <h5>5 m/s</h5>
+                </div>
+              </div>
+              <div class="">
+                <h5>12°C</h5>
+              </div>
+              <div class="">
+                <h5>0,5 m</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="weather-card">
+            <div class="bottomborder">
+              <h5>9.00</h5>
+            </div>
+            <div class="attributes">
+              <div class="">
+                <h5>15°C</h5>
+              </div>
+              <div class="">
+                <img src="img/cloud.svg" alt="cloud">
+              </div>
+              <div class="precip">
+                <h5>0 mm</h5>
+              </div>
+              <div class="row">
+                <div class="column col-sm-4 wind">
+                  <img src="img/wind.svg" alt="wind">
+                </div>
+                <div class="column col-sm-8 wind-speed">
+                  <h5>5 m/s</h5>
+                </div>
+              </div>
+              <div class="">
+                <h5>12°C</h5>
+              </div>
+              <div class="">
+                <h5>0,5 m</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="weather-card">
+            <div class="bottomborder">
+              <h5>10.00</h5>
+            </div>
+            <div class="attributes">
+              <div class="">
+                <h5>18°C</h5>
+              </div>
+              <div class="">
+                <img src="img/cloud.svg" alt="cloud">
+              </div>
+              <div class="precip">
+                <h5>0 mm</h5>
+              </div>
+              <div class="row">
+                <div class="column col-sm-4 wind">
+                  <img src="img/wind.svg" alt="wind">
+                </div>
+                <div class="column col-sm-8 wind-speed">
+                  <h5>5 m/s</h5>
+                </div>
+              </div>
+              <div class="">
+                <h5>12°C</h5>
+              </div>
+              <div class="">
+                <h5>0,5 m</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="weather-card">
+            <div class="bottomborder">
+              <h5>11.00</h5>
+            </div>
+            <div class="attributes">
+              <div class="">
+                <h5>22°C</h5>
+              </div>
+              <div class="">
+                <img src="img/cloud.svg" alt="cloud">
+              </div>
+              <div class="precip">
+                <h5>0 mm</h5>
+              </div>
+              <div class="row">
+                <div class="column col-sm-4 wind">
+                  <img src="img/wind.svg" alt="wind">
+                </div>
+                <div class="column col-sm-8 wind-speed">
+                  <h5>5 m/s</h5>
+                </div>
+              </div>
+              <div class="">
+                <h5>12°C</h5>
+              </div>
+              <div class="">
+                <h5>0,5 m</h5>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
 
       <div class="forecast daily" id="ForecastDaily">
-        <div class="fixed-card">
+        <div class="fixed-card" id="fixed-card">
           <div class="bottomborder">
             <h5>Day</h5>
           </div>
@@ -325,20 +931,20 @@
             </div>
             <div class="attributes">
               <div class="">
-                <h5>20°C</h5>
+                <h5>21°C</h5>
               </div>
               <div class="">
                 <img src="img/cloud.svg" alt="cloud">
               </div>
               <div class="precip">
-                <h5>0 mm</h5>
+                <h5>1 mm</h5>
               </div>
               <div class="row">
                 <div class="column col-sm-4 wind">
                   <img src="img/wind.svg" alt="wind">
                 </div>
                 <div class="column col-sm-8 wind-speed">
-                  <h5>5 m/s</h5>
+                  <h5>10 m/s</h5>
                 </div>
               </div>
               <div class="">
@@ -352,11 +958,290 @@
 
           <div class="weather-card">
             <div class="bottomborder">
-              <h5>14.00</h5>
+              <h5 id="day1">Fri</h5>
             </div>
             <div class="attributes">
               <div class="">
+                <h5>24°C</h5>
+              </div>
+              <div class="">
+                <img src="img/cloud.svg" alt="cloud">
+              </div>
+              <div class="precip">
+                <h5>0 mm</h5>
+              </div>
+              <div class="row">
+                <div class="column col-sm-4 wind">
+                  <img src="img/wind.svg" alt="wind">
+                </div>
+                <div class="column col-sm-8 wind-speed">
+                  <h5>2 m/s</h5>
+                </div>
+              </div>
+              <div class="">
+                <h5>13°C</h5>
+              </div>
+              <div class="">
+                <h5>0,3 m</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="weather-card">
+            <div class="bottomborder">
+              <h5>Sat</h5>
+            </div>
+            <div class="attributes">
+              <div class="">
+                <h5>27°C</h5>
+              </div>
+              <div class="">
+                <img src="img/cloud.svg" alt="cloud">
+              </div>
+              <div class="precip">
+                <h5>0 mm</h5>
+              </div>
+              <div class="row">
+                <div class="column col-sm-4 wind">
+                  <img src="img/wind.svg" alt="wind">
+                </div>
+                <div class="column col-sm-8 wind-speed">
+                  <h5>10 m/s</h5>
+                </div>
+              </div>
+              <div class="">
+                <h5>13°C</h5>
+              </div>
+              <div class="">
+                <h5>0,7 m</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="weather-card">
+            <div class="bottomborder">
+              <h5>Sun</h5>
+            </div>
+            <div class="attributes">
+              <div class="">
+                <h5>28°C</h5>
+              </div>
+              <div class="">
+                <img src="img/cloud.svg" alt="cloud">
+              </div>
+              <div class="precip">
+                <h5>0 mm</h5>
+              </div>
+              <div class="row">
+                <div class="column col-sm-4 wind">
+                  <img src="img/wind.svg" alt="wind">
+                </div>
+                <div class="column col-sm-8 wind-speed">
+                  <h5>1 m/s</h5>
+                </div>
+              </div>
+              <div class="">
+                <h5>15°C</h5>
+              </div>
+              <div class="">
+                <h5>0,1 m</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="weather-card">
+            <div class="bottomborder">
+              <h5>Mon</h5>
+            </div>
+            <div class="attributes">
+              <div class="">
+                <h5>30°C</h5>
+              </div>
+              <div class="">
+                <img src="img/cloud.svg" alt="cloud">
+              </div>
+              <div class="precip">
+                <h5>0 mm</h5>
+              </div>
+              <div class="row">
+                <div class="column col-sm-4 wind">
+                  <img src="img/wind.svg" alt="wind">
+                </div>
+                <div class="column col-sm-8 wind-speed">
+                  <h5>3 m/s</h5>
+                </div>
+              </div>
+              <div class="">
+                <h5>17°C</h5>
+              </div>
+              <div class="">
+                <h5>0,2 m</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="weather-card">
+            <div class="bottomborder">
+              <h5>Tue</h5>
+            </div>
+            <div class="attributes">
+              <div class="">
+                <h5>29°C</h5>
+              </div>
+              <div class="">
+                <img src="img/cloud.svg" alt="cloud">
+              </div>
+              <div class="precip">
+                <h5>2 mm</h5>
+              </div>
+              <div class="row">
+                <div class="column col-sm-4 wind">
+                  <img src="img/wind.svg" alt="wind">
+                </div>
+                <div class="column col-sm-8 wind-speed">
+                  <h5>15 m/s</h5>
+                </div>
+              </div>
+              <div class="">
+                <h5>18°C</h5>
+              </div>
+              <div class="">
+                <h5>1 m</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="weather-card">
+            <div class="bottomborder">
+              <h5>Wed</h5>
+            </div>
+            <div class="attributes">
+              <div class="">
+                <h5>25°C</h5>
+              </div>
+              <div class="">
+                <img src="img/cloud.svg" alt="cloud">
+              </div>
+              <div class="precip">
+                <h5>2 mm</h5>
+              </div>
+              <div class="row">
+                <div class="column col-sm-4 wind">
+                  <img src="img/wind.svg" alt="wind">
+                </div>
+                <div class="column col-sm-8 wind-speed">
+                  <h5>15 m/s</h5>
+                </div>
+              </div>
+              <div class="">
+                <h5>17°C</h5>
+              </div>
+              <div class="">
+                <h5>1,5 m</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="weather-card">
+            <div class="bottomborder">
+              <h5>Thu</h5>
+            </div>
+            <div class="attributes">
+              <div class="">
+                <h5>25°C</h5>
+              </div>
+              <div class="">
+                <img src="img/cloud.svg" alt="cloud">
+              </div>
+              <div class="precip">
+                <h5>0 mm</h5>
+              </div>
+              <div class="row">
+                <div class="column col-sm-4 wind">
+                  <img src="img/wind.svg" alt="wind">
+                </div>
+                <div class="column col-sm-8 wind-speed">
+                  <h5>7 m/s</h5>
+                </div>
+              </div>
+              <div class="">
                 <h5>20°C</h5>
+              </div>
+              <div class="">
+                <h5>0,5 m</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="weather-card">
+            <div class="bottomborder">
+              <h5>Fri</h5>
+            </div>
+            <div class="attributes">
+              <div class="">
+                <h5>26°C</h5>
+              </div>
+              <div class="">
+                <img src="img/cloud.svg" alt="cloud">
+              </div>
+              <div class="precip">
+                <h5>0 mm</h5>
+              </div>
+              <div class="row">
+                <div class="column col-sm-4 wind">
+                  <img src="img/wind.svg" alt="wind">
+                </div>
+                <div class="column col-sm-8 wind-speed">
+                  <h5>6 m/s</h5>
+                </div>
+              </div>
+              <div class="">
+                <h5>19°C</h5>
+              </div>
+              <div class="">
+                <h5>0,5 m</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="weather-card">
+            <div class="bottomborder">
+              <h5>Sat</h5>
+            </div>
+            <div class="attributes">
+              <div class="">
+                <h5>22°C</h5>
+              </div>
+              <div class="">
+                <img src="img/cloud.svg" alt="cloud">
+              </div>
+              <div class="precip">
+                <h5>1 mm</h5>
+              </div>
+              <div class="row">
+                <div class="column col-sm-4 wind">
+                  <img src="img/wind.svg" alt="wind">
+                </div>
+                <div class="column col-sm-8 wind-speed">
+                  <h5>10 m/s</h5>
+                </div>
+              </div>
+              <div class="">
+                <h5>19°C</h5>
+              </div>
+              <div class="">
+                <h5>0,8 m</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="weather-card">
+            <div class="bottomborder">
+              <h5>Sun</h5>
+            </div>
+            <div class="attributes">
+              <div class="">
+                <h5>21°C</h5>
               </div>
               <div class="">
                 <img src="img/cloud.svg" alt="cloud">
@@ -373,7 +1258,7 @@
                 </div>
               </div>
               <div class="">
-                <h5>12°C</h5>
+                <h5>19°C</h5>
               </div>
               <div class="">
                 <h5>0,5 m</h5>
@@ -383,53 +1268,128 @@
 
           <div class="weather-card">
             <div class="bottomborder">
-              <h5>13.00</h5>
+              <h5>Mon</h5>
+            </div>
+            <div class="attributes">
+              <div class="">
+                <h5>24°C</h5>
+              </div>
+              <div class="">
+                <img src="img/cloud.svg" alt="cloud">
+              </div>
+              <div class="precip">
+                <h5>0 mm</h5>
+              </div>
+              <div class="row">
+                <div class="column col-sm-4 wind">
+                  <img src="img/wind.svg" alt="wind">
+                </div>
+                <div class="column col-sm-8 wind-speed">
+                  <h5>8 m/s</h5>
+                </div>
+              </div>
+              <div class="">
+                <h5>20°C</h5>
+              </div>
+              <div class="">
+                <h5>0,4 m</h5>
+              </div>
             </div>
           </div>
 
           <div class="weather-card">
-            <p>weather3</p>
+            <div class="bottomborder">
+              <h5>Tue</h5>
+            </div>
+            <div class="attributes">
+              <div class="">
+                <h5>21°C</h5>
+              </div>
+              <div class="">
+                <img src="img/cloud.svg" alt="cloud">
+              </div>
+              <div class="precip">
+                <h5>0 mm</h5>
+              </div>
+              <div class="row">
+                <div class="column col-sm-4 wind">
+                  <img src="img/wind.svg" alt="wind">
+                </div>
+                <div class="column col-sm-8 wind-speed">
+                  <h5>5 m/s</h5>
+                </div>
+              </div>
+              <div class="">
+                <h5>20°C</h5>
+              </div>
+              <div class="">
+                <h5>0,5 m</h5>
+              </div>
+            </div>
           </div>
 
           <div class="weather-card">
-            <p>weather4</p>
+            <div class="bottomborder">
+              <h5>Wed</h5>
+            </div>
+            <div class="attributes">
+              <div class="">
+                <h5>23°C</h5>
+              </div>
+              <div class="">
+                <img src="img/cloud.svg" alt="cloud">
+              </div>
+              <div class="precip">
+                <h5>0 mm</h5>
+              </div>
+              <div class="row">
+                <div class="column col-sm-4 wind">
+                  <img src="img/wind.svg" alt="wind">
+                </div>
+                <div class="column col-sm-8 wind-speed">
+                  <h5>5 m/s</h5>
+                </div>
+              </div>
+              <div class="">
+                <h5>20°C</h5>
+              </div>
+              <div class="">
+                <h5>0,5 m</h5>
+              </div>
+            </div>
           </div>
 
           <div class="weather-card">
-            <p>weather3</p>
+            <div class="bottomborder">
+              <h5>Thu</h5>
+            </div>
+            <div class="attributes">
+              <div class="">
+                <h5>26°C</h5>
+              </div>
+              <div class="">
+                <img src="img/cloud.svg" alt="cloud">
+              </div>
+              <div class="precip">
+                <h5>3 mm</h5>
+              </div>
+              <div class="row">
+                <div class="column col-sm-4 wind">
+                  <img src="img/wind.svg" alt="wind">
+                </div>
+                <div class="column col-sm-8 wind-speed">
+                  <h5>9 m/s</h5>
+                </div>
+              </div>
+              <div class="">
+                <h5>20°C</h5>
+              </div>
+              <div class="">
+                <h5>0,6 m</h5>
+              </div>
+            </div>
           </div>
 
-          <div class="weather-card">
-            <p>weather3</p>
-          </div>
-
-          <div class="weather-card">
-            <p>weather3</p>
-          </div>
-
-          <div class="weather-card">
-            <p>weather3</p>
-          </div>
-
-          <div class="weather-card">
-            <p>weather3</p>
-          </div>
-
-          <div class="weather-card">
-            <p>weather3</p>
-          </div>
-
-          <div class="weather-card">
-            <p>weather3</p>
-          </div>
-
-          <div class="weather-card">
-            <p>weather3</p>
-          </div>
-
-          <div class="weather-card">
-            <p>weather3</p>
-          </div>
         </div>
       </div>
     </div>
@@ -453,10 +1413,6 @@
       </div>
     </div>
 
-    <div class="warning">
-      <h1>Please inspect the site in mobile size (max width: 375px).</h1>
-    </div>
-
   </main>
 
   <footer>
@@ -472,6 +1428,7 @@
   </footer>
 
   <script src="js/script.js"> </script>
+  <script src="js/date.js"> </script>
 </body>
 
 </html>

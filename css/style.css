@@ -630,6 +630,7 @@ input {
 .top-640 {
   display: none;
   margin-top: 100px;
+  padding-bottom: 5px;
   position: sticky;
   top: 100px;
   z-index: 998;
@@ -657,6 +658,10 @@ input {
 }
 
 #logo {
+  display: none;
+}
+
+.h-full {
   display: none;
 }
 
@@ -715,7 +720,7 @@ input {
   }
 
   .box {
-    margin-top: 200px;
+    margin-top: 180px;
   }
 
   .col-md-2 {
@@ -783,8 +788,6 @@ input {
     height: 20px;
   }
 
-
-
   .search {
     position: relative;
     display: inline-block;
@@ -838,7 +841,11 @@ input {
 
 .fixed-card {
   position: sticky;
-  width: 160px;;
+  width: 220px;;
+}
+
+#fixed-card {
+  width: 148px;
 }
 
 .movingCards {
@@ -883,6 +890,19 @@ input {
   padding-right: 10px;
 }
 
+.containerDesktop {
+  overflow-y: scroll;
+}
+
+.left {
+  padding-left: 10px;
+  text-align: left;
+}
+
+#left {
+  padding-left: 18px;
+}
+
 }
 
 @media only screen and (min-width: 1024px) {
@@ -891,7 +911,7 @@ input {
   }
 
   .logo {
-    margin-top: 100px;
+    margin-top: 80px;
   }
 
   .headline {
@@ -915,7 +935,7 @@ input {
   }
 
   .buttons {
-    margin-top: 150px;
+    margin-top: 110px;
     text-align: center;
   }
 
@@ -962,6 +982,9 @@ input {
     margin-right: auto;
   }
 
+  #left {
+    padding-left: 43px;
+  }
 
 }
 

@@ -118,7 +118,6 @@ document.querySelector('#full').onclick = () => {
           console.log(search);
         }
 
-
           /*
           var search = document.querySelector('#search').onsubmit;
           document.querySelector('#location').onsubmit = () => {

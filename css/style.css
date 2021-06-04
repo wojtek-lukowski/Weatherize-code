@@ -668,7 +668,7 @@ input {
 
 @media only screen and (min-width: 640px) {
   body.create {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.25)), url("../img/background-640@2x.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.25)), url("../img/background-640@2x-opt.jpg");
   }
 
 #mob {
@@ -680,7 +680,7 @@ input {
   }
 
   #logo1 {
-    height: 150px;
+    height: 100px;
     width: auto;
   }
 
@@ -907,7 +907,7 @@ input {
 
 @media only screen and (min-width: 1024px) {
   body.create {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/background-1024@2x.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/background-1024@2x-opt.jpg");
   }
 
   .logo {
@@ -931,7 +931,7 @@ input {
   }
 
   .box {
-    margin-top: 350px;
+    margin-top: 315px;
   }
 
   .buttons {
